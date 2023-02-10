@@ -15,3 +15,4 @@ create a symbollic link
 move all files beginning with ~
 script that deletes all files and directory in the current working directory with character ~
 script that creates the directories in tge current working directory
+scropt that list and directories separated by ,
