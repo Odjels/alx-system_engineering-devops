@@ -12,3 +12,4 @@ script that changes working directory to orevious one
 srciot tgat list all files
 scripts that prints the type of file
 create a symbollic link
+move all files beginning with ~
