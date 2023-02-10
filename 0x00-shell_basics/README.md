@@ -5,3 +5,4 @@ display the content list of the current directory
 display current directory content including hidden files in a long format
 display current directory content with long formal, numbers and hidden files
 scriot that creatse a directory
+move the file betty to /tmp/
