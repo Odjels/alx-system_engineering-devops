@@ -9,3 +9,4 @@ move the file betty to /tmp/
 delete betty file
 delete the directory my_first_directory
 script that changes working directory to orevious one
+srciot tgat list all files
