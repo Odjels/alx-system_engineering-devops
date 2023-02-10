@@ -8,3 +8,4 @@ scriot that creatse a directory
 move the file betty to /tmp/
 delete betty file
 delete the directory my_first_directory
+script that changes working directory to orevious one
