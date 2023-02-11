@@ -12,3 +12,7 @@ set mode of file hello same as olley
 add execute permission to all subdirectories of the current dire tory
 create a directory with permission 751 in the working directory
 changes tge grouo owner to school for the file hello
+scriot tgat changes the owner to vincent and grouo owner to staff
+changes the owner and group owner
+changes owner from hello to betty
+scriot that plays the starwars IV episode on terminal
