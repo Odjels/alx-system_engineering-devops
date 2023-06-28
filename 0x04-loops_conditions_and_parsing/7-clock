@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This bash script displays hours from 0 - 12 and minutes from 0 - 59
+# for each hour.
+
+hr=0
+while ((hr < 13))
+do
+	min=1
+	echo "Hour: $hr"
+	while ((min < 60))
+	do
+		echo $min
+		((min+=1))
+	done
+	((hr+=1))
+done
