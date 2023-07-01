@@ -5,9 +5,9 @@
 # When receiving a sigterm it prints 'I am invincible!!!'
 
 
-i=true
+a=true
 
-while [ $i ]
+while [ $a ]
 do
   echo "To inifinity and beyond"
   sleep 2
