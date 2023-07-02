@@ -2,7 +2,7 @@
 # This script prints texts and numbers depending on the condition set
 
 b=1
-while ((bi <= 20))
+while ((b <= 20))
 do
 	echo $b
 	case $b in
