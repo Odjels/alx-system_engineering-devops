@@ -1,0 +1,5 @@
+#SSH client configuration for alx-system_engineering-devops
+#seiithing up with my server's IP and username Ubuntu 3.85.175.4
+Host*
+    PasswordAuthentication no
+    IdentityFile~/.ssh/school
