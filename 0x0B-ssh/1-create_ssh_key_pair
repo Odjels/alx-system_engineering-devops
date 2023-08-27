@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# create a key pairs protected by passphrase
+
+ssh-keygen -f school -b 4096 -N betty
