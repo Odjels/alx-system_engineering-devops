@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Configureing redirect_me for redirecting to another page
+
+sudo apt-get update
+sudo apt-get -y install nginx
+
+echo "Hello World!" | sudo tee /var/www/html/index.html
+
+sfr="server_name _;\n\trewrite ^\/redirect_me return 301 https:\/\/github.com\/odjels permanent"
+sudo sed -i 's/server_name _;/$sfr/' /etc/nginx/sites-enabled/default
+
+sudo service nginx restart
