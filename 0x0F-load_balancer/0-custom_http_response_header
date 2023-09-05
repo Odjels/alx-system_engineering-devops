@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#custom response header
 sudo apt-get update
 sudo apt-get install nginx -y
 
