@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This Configures an Nginx server to listen on port 80.
+
+sudo ll /etc/nginx
+sudo vi /etc/nginx/nginx.conf
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx start
+ps auxf
+kill "$(pgrep 'nginx' | head -1)"

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# fixing nginx web server and start listening on port 80 by creating a symbolic link
+sudo vi /etc/nginx/nginx.conf
+
+rm /etc/nginx/sites-enabled/default
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo ll /etc/nginx/sites-enabled/
+service nginx restart
+service nginx status
