@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Usage: ./1-world_wide_web <domain> <subdomain>
 # This is displaying information about subdomains.
-# Creating a function to query strings using awk
+# Creating a function for query strings using awk
 
 domain_info () {
     line=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | tr '\t' '\n' | tail -2 | tr '\n' ' ')
