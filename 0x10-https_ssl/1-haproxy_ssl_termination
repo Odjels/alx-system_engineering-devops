@@ -34,9 +34,8 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 frontend odjels.tech_alx-frontend
         bind *:80
-	bind *:443 ssl crt /etc/letsencrypt/live/www.odjels.tech/odjels.pem
-	mode http
-        default_backend odjels.tech_alx-backend
+	bind *:443 ssl crt /etc/letsencrypt/live/www.odjels.tech/fullchain.pem
+	default_backend odjels.tech_alx-backend
 
 backend odjels.tech_alx-backend
         balance roundrobin
